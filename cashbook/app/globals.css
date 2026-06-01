@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --income: #1D9E75;
+  --expense: #D85A30;
+  --invest: #534AB7;
+  --fixed: #185FA5;
+}
+
+* { box-sizing: border-box; }
+
+input, select, textarea {
+  @apply w-full px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:border-gray-400;
+}
+
+button {
+  @apply cursor-pointer;
+}
